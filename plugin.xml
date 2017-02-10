@@ -10,10 +10,10 @@
         <engine name="cordova" version=">=3.0.0"/>
     </engines>
     <platform name="ios">
-      <config-file target="*-Info.plist" parent="root">
-          <key>UIStatusBarHidden</key>
+      <config-file target="*-Info.plist" parent="UIStatusBarHidden">
           <true/>
-          <key>UIViewControllerBasedStatusBarAppearance</key>
+      </config-file>
+      <config-file target="*-Info.plist" parent="UIViewControllerBasedStatusBarAppearance">
           <false/>
       </config-file>
     </platform>
