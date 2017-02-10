@@ -1,0 +1,39 @@
+{
+  "name": "cordova-plugin-hide-statusbar",
+  "version": "0.1.0",
+  "author": "Mike Massari <michele@michelemassari.net> (http://michelemassari.net/)",
+  "description": "Cordova / PhoneGap Plugin to allow hide the status bar in iPhone and iPads using iOS 9 and 10 for full screen applications",
+  "cordova": {
+    "id": "cordova-plugin-hide-statusbar",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michelemassari/cordova-plugin-hide-statusbar.git"
+  },
+  "keywords": [
+    "cordova",
+    "ios",
+    "app",
+    "status bar",
+    "status",
+    "bar",
+    "UIStatusBarHidden",
+    "UIViewControllerBasedStatusBarAppearance",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michelemassari/cordova-plugin-hide-statusbar/issues"
+  },
+  "homepage": "https://github.com/michelemassari/cordova-plugin-hide-statusbar#readme"
+}
